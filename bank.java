@@ -54,7 +54,7 @@ class cur_act extends account{
 		System.out.println("ENTER THE AMOUNT");
 		double am=sc.nextInt();
 		sum1-=am;
-		if(sum<=50){ sum-=10;System.out.println("FINE AMOUNT DEDUCTED = 10/- ")}
+		if(sum<=50){ sum-=10;System.out.println("FINE AMOUNT DEDUCTED = 10/- ");}
 		return;
 	} 
 
